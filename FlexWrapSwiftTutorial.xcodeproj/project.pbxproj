@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		CF6D26C429377C7400450984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6D26C329377C7400450984 /* AppDelegate.swift */; };
 		CF6D26C629377C7400450984 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6D26C529377C7400450984 /* SceneDelegate.swift */; };
-		CF6D26C829377C7400450984 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6D26C729377C7400450984 /* ViewController.swift */; };
 		CF6D26CB29377C7400450984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6D26C929377C7400450984 /* Main.storyboard */; };
 		CF6D26CD29377C7500450984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF6D26CC29377C7500450984 /* Assets.xcassets */; };
 		CF6D26D029377C7500450984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6D26CE29377C7500450984 /* LaunchScreen.storyboard */; };
+		CF6D26D829377D0000450984 /* TagButtonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6D26D729377D0000450984 /* TagButtonsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CF6D26C029377C7400450984 /* FlexWrapSwiftTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexWrapSwiftTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF6D26C329377C7400450984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF6D26C529377C7400450984 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CF6D26C729377C7400450984 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CF6D26CA29377C7400450984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF6D26CC29377C7500450984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF6D26CF29377C7500450984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF6D26D129377C7500450984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF6D26D729377D0000450984 /* TagButtonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagButtonsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +58,11 @@
 			children = (
 				CF6D26C329377C7400450984 /* AppDelegate.swift */,
 				CF6D26C529377C7400450984 /* SceneDelegate.swift */,
-				CF6D26C729377C7400450984 /* ViewController.swift */,
 				CF6D26C929377C7400450984 /* Main.storyboard */,
 				CF6D26CC29377C7500450984 /* Assets.xcassets */,
 				CF6D26CE29377C7500450984 /* LaunchScreen.storyboard */,
 				CF6D26D129377C7500450984 /* Info.plist */,
+				CF6D26D729377D0000450984 /* TagButtonsViewController.swift */,
 			);
 			path = FlexWrapSwiftTutorial;
 			sourceTree = "<group>";
@@ -138,8 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF6D26C829377C7400450984 /* ViewController.swift in Sources */,
 				CF6D26C429377C7400450984 /* AppDelegate.swift in Sources */,
+				CF6D26D829377D0000450984 /* TagButtonsViewController.swift in Sources */,
 				CF6D26C629377C7400450984 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
